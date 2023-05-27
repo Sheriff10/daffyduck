@@ -182,7 +182,7 @@
     background: #141414;
     color: #fff;
     padding: 20px 0px;
-    transform: translateX(-100vh);
+    transform: translateX(-110vw);
  }
  .airdrop .a-close {
     justify-content: end;
