@@ -1,0 +1,14 @@
+a{
+    color: #000;
+    text-decoration: none;
+}
+.text-bold {
+    font-weight: bold;
+}
+primary {
+    background: #000;
+    font-weight: bold;
+    padding: 20px 5px;
+    border-radius: 10px;
+    color: #ffffff;
+}
