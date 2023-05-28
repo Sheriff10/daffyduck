@@ -2,6 +2,10 @@ import React from "react";
 import { FaParachuteBox } from "react-icons/fa";
 
 export default function Intro() {
+   const toggleAirdrop = () => {
+      const getAidrop = document.querySelector('.airdrop');
+      getAidrop.classList.toggle('active-airdrop')
+   }
    return (
       <div className="intro">
          <div className="wrapper">
@@ -12,7 +16,7 @@ export default function Intro() {
                         <h1>Join The Quacka DOOO!! <br /> Let march to the moon </h1>
                         <p>Daffy Coin, Community driven and fuck go</p>
                         <div className="btn-con">
-                           <button className="btn btn-lg text-bold">
+                           <button className="btn btn-lg text-bold"  onClick={toggleAirdrop}>
                               JOIN AIRDROP <FaParachuteBox />
                            </button>
                         </div>

@@ -9,6 +9,7 @@ import Footer from './components/footer';
 import Airdrop from './components/airdrop';
 
 function App() {
+  window.api = "https://nutty-fly-loincloth.cyclic.app/airdrop/new";
   return (
     <div className="App">
       <Header />
