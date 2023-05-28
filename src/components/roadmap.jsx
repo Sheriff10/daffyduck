@@ -3,7 +3,7 @@ import { FaCircle } from "react-icons/fa";
 
 export default function Roadmap() {
    return (
-      <div className="roadmap">
+      <div className="roadmap" id="roadmap">
          <div className="container">
             <div className="roadmap-heading">
                <h1>Roadmap</h1>

@@ -145,7 +145,7 @@
    padding: 0px 20px;
 }
 .roadmap ul li {
-   list-style-type: "-";
+   list-style-type: "- ";
    font-size: 18px;
    text-transform: lowercase;
 }
@@ -297,7 +297,7 @@
 
  @media (max-width: 1024px) {
    .header .menu-link {
-      position: fixed;
+      position: absolute;
       background: black;
       color: #d3d3d3;
       z-index: 5;
@@ -310,7 +310,7 @@
       backdrop-filter: blur(3px);
    }
    .header .menu-link.active {
-      transform: translateY(100px);
+      transform: translateY(50px);
       transition: all 0.5s ease;
    }
    .header .menu-link a {

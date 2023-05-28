@@ -6,6 +6,11 @@ export default function Header() {
       const getMenu = document.querySelector(".header .menu-link");
       getMenu.classList.toggle("active");
    };
+   const toggleAirdrop = () => {
+      const getAidrop = document.querySelector('.airdrop');
+      getAidrop.classList.toggle('active-airdrop')
+      toggleMenu()
+   }
    return (
       <div className="header">
          <div className="container">
@@ -16,7 +21,7 @@ export default function Header() {
                       <span className="text-bold m-2">DAFFY DUCK</span>
                   </div>
                </div>
-               <div className="col">
+               <div className="col text-bold">
                   <div className="menu-link">
                      <a href="#" onClick={toggleMenu}>
                         Home
@@ -24,11 +29,11 @@ export default function Header() {
                      <a href="#about" onClick={toggleMenu}>
                         About
                      </a>
-                     <a href="#buy" onClick={toggleMenu}>
-                        How to buy
+                     <a href="#roadmap" onClick={toggleMenu}>
+                        Roadmap
                      </a>
-                     <a href="#tokenomics" onClick={toggleMenu}>
-                        Tokenomics
+                     <a  onClick={toggleAirdrop}>
+                        Airdrop
                      </a>
                   </div>
                </div>
