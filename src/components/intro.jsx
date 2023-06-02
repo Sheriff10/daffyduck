@@ -1,10 +1,14 @@
 import React from "react";
-import { FaParachuteBox } from "react-icons/fa";
+import { FaHandHolding, FaParachuteBox } from "react-icons/fa";
 
 export default function Intro() {
    const toggleAirdrop = () => {
       const getAidrop = document.querySelector('.airdrop');
       getAidrop.classList.toggle('active-airdrop')
+   }
+   const alertShit = () => {
+      window.alert('Airdrop Ongoing')
+      toggleAirdrop()
    }
    return (
       <div className="intro">
@@ -15,9 +19,12 @@ export default function Intro() {
                      <div className="intro-te">
                         <h1>Join The Quacka DOOO!! <br /> Let march to the moon </h1>
                         <p>Daffy Coin, Community driven and fuck go</p>
-                        <div className="btn-con">
+                        <div className="btn-con d-flex">
                            <button className="btn btn-lg text-bold"  onClick={toggleAirdrop}>
                               JOIN AIRDROP <FaParachuteBox />
+                           </button>
+                           <button className="btn btn-lg text-bold"  onClick={alertShit}>
+                              CLAIM <FaHandHolding />
                            </button>
                         </div>
                      </div>

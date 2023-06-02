@@ -56,6 +56,9 @@
    text-transform: uppercase;
    text-shadow: 5px 10px 5px #000;
 }
+.intro .btn-con .btn:last-child{
+   margin-left: 20px;
+}
 .intro .btn {
    background: linear-gradient(60deg, red, #ff5100, #ea4762);
    color: #fff;
@@ -328,6 +331,9 @@
       background-repeat: no-repeat;
       background-size: cover;
    }
+   .intro .btn-con {
+      justify-content: space-between;
+   }
    .intro h1 {
       font-size: 40px;
    }
@@ -336,4 +342,16 @@
       flex-wrap: wrap;
       justify-content: center;
    }
+}
+
+
+/* Influencer */
+.airdrop.influencer{
+   transform: translateX(0);
+   position: relative;
+   margin: 0;
+   padding: 0;
+}
+.airdrop.influencer .form-body .a-completed.comp-active{
+   transform: translateX(-100vw);
 }

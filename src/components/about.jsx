@@ -24,7 +24,7 @@ export default function About() {
       ),
    ];
    return (
-      <div className="about">
+      <div className="about" id="about">
         {/* <ParticlesComp /> */}
          <div className="container">
             <div className="abt-head d-flex justify-content-center">
