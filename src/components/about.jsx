@@ -19,7 +19,7 @@ export default function About() {
       ),
       cardFunc(
          "Stay Active",
-         "c2.png",
+         "c3.png",
          "Join the $DUCK community and participte in greatest community of all time. We all love $DUCK."
       ),
    ];
