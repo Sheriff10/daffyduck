@@ -117,7 +117,7 @@ export default function Airdrop() {
                            <input
                               type="text"
                               className="form-control form-sm"
-                              placeholder="@twitter_username"
+                              placeholder="https://twitter.com/...."
                               onChange={(e) => setRetweet_link(e.target.value)}
                               required
                               value={retweet_link}
@@ -130,7 +130,7 @@ export default function Airdrop() {
                            <input
                               type="text"
                               className="form-control form-sm"
-                              placeholder="@twitter_username"
+                              placeholder="https://twitter.com/...."
                               onChange={(e) => setPost_link(e.target.value)}
                               required
                               value={post_link}
@@ -148,7 +148,7 @@ export default function Airdrop() {
                            />
                         </div>
                         <div className="form-group">
-                           <input type="checkbox" required /> I have Completed
+                           <input type="checkbox" required /> I have completed
                            all task
                         </div>
                         <div className="form-group d-flex justify-content-center pt-4 pb-4">
@@ -164,8 +164,9 @@ export default function Airdrop() {
                            <div className="wrap">
                               <h1>Airdrop completed successfully</h1>
                               <span>
-                                 Winner will be announce on our offcial twitter
-                                 page. Stay tuned for info
+                                 You have successfully completed the airdrop. Your data is being verified and will
+                                 be attended to. Please stay tuned on our socials for airdrop announcement. Thank you 
+                                 for your participation.
                               </span>{" "}
                               <br />
                               <div className="a-icon-wrap d-flex justify-content-center">
