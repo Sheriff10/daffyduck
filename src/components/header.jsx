@@ -41,14 +41,14 @@ export default function Header() {
                   <div className="socials">
                      <div className="d-flex">
                         <a
-                           href="https://twitter.com/genieetheruem?s=21&t=oeAxtrHMe2RLqjaoJPTLlw"
+                           href="https://twitter.com/Daffyducketh?t=LymQDiHi0oF-8D1RYAinbw&s=09"
                            target="_blank"
                         >
                            <i>
                               <FaTwitter />
                            </i>
                         </a>
-                        <a href="https://t.me/GenieEthereum " target="_blank">
+                        <a href="https://t.me/daffyducketh" target="_blank">
                            <i>
                               <FaTelegram />
                            </i>
