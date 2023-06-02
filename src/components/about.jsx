@@ -10,17 +10,17 @@ export default function About() {
       cardFunc(
          "Community Driven",
          "c1.png",
-         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quos ex reiciendis?"
+         "$DUCK is a community-driven cryptocurrency project designed to foster active participation, engagement, and rewards for its community members. We believe that decisions should be made collectively, taking into account the perspectives and interests of all community members. Through voting mechanisms and community proposals, users can actively participate in shaping the project's future. All major decisions, such as protocol upgrades, partnerships, or treasury management, will be subject to community voting."
       ),
       cardFunc(
          "$Psypop Reward",
          "c2.png",
-         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quos ex reiciendis?"
+         "$DUCK introduces a unique reflection reward mechanism as an incentive for community participation and token holding. With every transaction made on the network, a portion of the transaction fee is redistributed to existing token holders. This redistribution provides passive income to the community and encourages users to hold onto their tokens, fostering a sense of loyalty and commitment."
       ),
       cardFunc(
          "Stay Active",
-         "c3.png",
-         "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quos ex reiciendis?"
+         "c2.png",
+         "Join the $DUCK community and participte in greatest community of all time. We all love $DUCK."
       ),
    ];
    return (
@@ -39,19 +39,7 @@ export default function About() {
                   </div>
                   <div className="col-12 col-lg-6">
                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Inventore tempore eius labore consequatur! Ipsa
-                        nam officiis placeat tempore ratione sit nemo
-                        perspiciatis quod, nisi similique porro sint in ad
-                        beatae. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Atque qui placeat laboriosam omnis
-                        voluptate impedit incidunt nam non, aliquid beatae
-                        maiores dolor quas, dolores unde eveniet aliquam
-                        excepturi. Quis, amet? <br />
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Harum repudiandae consequuntur non fuga, assumenda sunt
-                        porro corporis vero odit quae a quia laborum veritatis?
-                        Similique neque molestiae atque voluptatum dolor <br />
+                        Daffy Duck is a popular cartoon character created by Warner Bros. He is an anthropomorphic black duck known for his zany personality and comical antics.
                      </p>
                   </div>
                </div>
