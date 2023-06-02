@@ -60,7 +60,7 @@ export default function About() {
                               <div className="card-body">
                                  <p className="text-bold m-0">{i.title}</p>
                                  <span>
-                                    L{i.text}
+                                    {i.text}
                                  </span>
                               </div>
                            </div>
