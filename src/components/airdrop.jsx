@@ -162,9 +162,9 @@ export default function Airdrop() {
 
                         <div className="a-completed">
                            <div className="wrap">
-                              <h1>Airdrop completed successfully</h1>
+                              <h1>Airdrop Ended</h1>
                               <span>
-                                 You have successfully completed the airdrop. Your data is being verified and will
+                                 Airdrop has officially ended. if you participated, your data is being verified and will
                                  be attended to. Please stay tuned on our socials for airdrop announcement. Thank you 
                                  for your participation.
                               </span>{" "}
